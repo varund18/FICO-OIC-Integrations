@@ -1,0 +1,25 @@
+#Base URL
+export OIC_BASE_URL=oicdevelopment-ficobusapps.integration.ocp.oraclecloud.com:443
+
+
+#-------------TARGET-------------
+ 
+#New Integrations To Add to Target ENV
+export CREATE_INTEGRATIONS=(FICO_CICD_TEST_INTEGRAT 01.00.0000)
+ 
+#Update Integrations In Target Env
+export UPDATE_INTEGRATIONS=()
+#example: (INTEGRATION_1_NAME IINTEGRATION_1_VERSION INTEGRATION_2_NAME INTEGRATION_2_VERSION)
+#example: (INTEGRATION_1_NAME 01.00.0010 INTEGRATION_2_NAME 01.02.0000)
+
+ 
+#Update Pacakages In Target Env
+export UPDATE_PACKAGES=""
+ 
+#Connection To Add To Target Env
+export UPDATE_CONNECTIONS=""
+ 
+#Process Project Imports From Repo
+export POST_SPACEID=""
+#export POST_SNAPSHOTID=""
+export POST_PROJECT_NAME="" #what you want your process project file to be called
